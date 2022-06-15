@@ -1,5 +1,11 @@
 const bcrypt  = require('bcrypt');
 
-app.listen(3000, () => {
-    console.log('Listening to port 3000!');
-});
+const hashPassword = async () => {
+    const salt = await bcrypt.genSalt(10);
+    const hash =  await bcrypt.hash(pw, salt);
+    console.log(salt);
+    console.log(hash);
+}
+
+hashPassword('monkey');
+
