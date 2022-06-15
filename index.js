@@ -17,9 +17,9 @@ const hashPassword = async (pw) => {
 const login = async(pw, hashedPw) => {
     const result = await bcrypt.compare(pw, hashedPw);
     if (result) {
-        console.log('Logged in Successfully!');
+        console.log('Welcome, Logged in Successfully!');
     } else {
-        console.log('Try Again');
+        console.log('Try Again, Incorrect Password!');
     }
 }
 
