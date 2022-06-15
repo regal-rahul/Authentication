@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/regal-rahul/Authentication/issues"
   },
-  "homepage": "https://github.com/regal-rahul/Authentication#readme"
+  "homepage": "https://github.com/regal-rahul/Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1"
+  }
 }
