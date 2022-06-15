@@ -24,5 +24,5 @@ const login = async(pw, hashedPw) => {
 }
 
 
-// hashPassword('monkey');
-login('monkey', '$2b$12$B6apUukdqaVc/qZCnCSSNuyGJ5qXnCEvkGvxqhVt/QnHzDuUPNqqe');
+hashPassword('monkey');
+// login('monkey', '$2b$12$B6apUukdqaVc/qZCnCSSNuyGJ5qXnCEvkGvxqhVt/QnHzDuUPNqqe');
